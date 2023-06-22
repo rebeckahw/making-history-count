@@ -102,7 +102,7 @@ Options:
 
 ![Scanned book spread][spread]
 
-[spread]: ORIGINAL_EXAMPLE/1900_original.png "Example of scanned book spread"
+[spread]: FIGS/1900_original.jpg "Example of scanned book spread"
 
 
 
