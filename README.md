@@ -15,9 +15,9 @@ TODO: Docker
 ## Overview
 This repo contains an OCR (Optical Character Recognition) model adapted to scanned BiSOS tables. The model is a Tesseract model and can be used as any Tesseract model. 
 
-To get good performance from the model, it is necessary to preprocess the table images, and this is done in two steps. First, **Scantailor** is used (see below), and next the script `preprocess.py` should be applied to the Scantailor data.
+To improve the performance of the model, it is necessary to preprocess the table images, and this is done in two steps. First, **Scantailor** is used (see below), and next the script `preprocess.py` should be applied to the Scantailor output.
 
-Next, `run_OCR.py` will apply the OCR to the preprocessed data. The `run_OCR.py`script provides two types of output, the Tesseract output (first few rows):
+After preprocessing, `run_OCR.py` will apply the OCR to the preprocessed data. The `run_OCR.py` script provides two types of output, the Tesseract output (first few rows):
 
 ```
 level,page_num,block_num,par_num,line_num,word_num,left,top,width,height,conf,text
